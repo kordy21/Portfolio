@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "title": "Frontend Engineer",
+    "tagline": "Building digital experiences that are fast, scalable, and beautifully engineered.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact Me",
+    "scroll": "Scroll to explore",
+    "available": "Available for opportunities"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Engineer & Builder",
+    "summary": "Frontend Engineer with 1.5+ years of experience building production-ready web applications, admin dashboards, and business platforms. I specialize in React.js and Next.js, with a passion for clean architecture, scalable interfaces, and seamless API integration.",
+    "philosophy_title": "Engineering Philosophy",
+    "philosophy": "I believe great software is built at the intersection of clean code and thoughtful design. Every component should have a single responsibility, every interface should be intuitive, and every application should perform as well as it looks.",
+    "cta": "View Full Experience",
+    "technologies": "Technologies I Work With",
+    "currentFocus": "Currently building production apps at Target Digital Solution, focusing on Next.js, performance, and scalable component architecture.",
+    "education_title": "Education",
+    "certifications_title": "Languages",
+    "arabic": "Arabic",
+    "arabic_level": "Native",
+    "english": "English",
+    "english_level": "B2 Proficiency"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "The tools and technologies I use to build modern web applications."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of work across healthcare, e-commerce, education, and business platforms.",
+    "featured": "Featured Work",
+    "all": "All Projects",
+    "view": "View Project",
+    "viewLive": "View Live",
+    "viewCode": "View Code",
+    "filters": {
+      "all": "All",
+      "react": "React",
+      "nextjs": "Next.js",
+      "healthcare": "Healthcare",
+      "ecommerce": "E-Commerce",
+      "education": "Education",
+      "business": "Business"
+    },
+    "noResults": "No projects found for this filter.",
+    "nextProject": "Next Project",
+    "prevProject": "Previous Project",
+    "backToProjects": "Back to Projects",
+    "overview": "Overview",
+    "challenge": "The Challenge",
+    "solution": "The Solution",
+    "role": "My Role",
+    "technologies": "Technologies",
+    "keyFeatures": "Key Features",
+    "gallery": "Gallery",
+    "year": "Year",
+    "category": "Category",
+    "client": "Client"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My professional journey building products that matter.",
+    "present": "Present",
+    "education": "Education",
+    "achievements": "Key Achievements"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or want to talk? I'd love to hear from you.",
+    "name": "Name",
+    "name_placeholder": "Your full name",
+    "email": "Email",
+    "email_placeholder": "your@email.com",
+    "subject": "Subject",
+    "subject_placeholder": "What's this about?",
+    "message": "Message",
+    "message_placeholder": "Tell me about your project or opportunity...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success_title": "Message sent!",
+    "success_body": "Thanks for reaching out. I'll get back to you soon.",
+    "error_title": "Something went wrong",
+    "error_body": "Please try again or email me directly.",
+    "location": "Location",
+    "availability": "Availability",
+    "available_text": "Open to new opportunities",
+    "response_time": "Usually responds within 24 hours"
+  },
+  "footer": {
+    "tagline": "Building the web, one component at a time.",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "notFound": "Page not found",
+    "backHome": "Back to Home",
+    "readMore": "Read more",
+    "close": "Close",
+    "open": "Open"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "lang": {
+    "switch": "العربية",
+    "current": "EN"
+  },
+  "meta": {
+    "home_title": "Mohamed Abdelhamed — Frontend Engineer",
+    "home_desc": "Frontend Engineer building fast, scalable web applications with React.js and Next.js.",
+    "about_title": "About — Mohamed Abdelhamed",
+    "projects_title": "Projects — Mohamed Abdelhamed",
+    "experience_title": "Experience — Mohamed Abdelhamed",
+    "contact_title": "Contact — Mohamed Abdelhamed"
+  }
+}
