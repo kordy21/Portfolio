@@ -59,14 +59,14 @@ export default async function AboutPage({
                 <div className="relative rounded-2xl overflow-hidden border border-border/80 bg-card p-3 shadow-xl">
                   <div className="relative aspect-square rounded-xl overflow-hidden bg-muted">
                     <Image
-                      src="/images/profile.jpg"
+                      src="/images/profile-2.jpeg"
                       alt="Mohamed Abdelhamed"
                       fill
                       priority
                       className="object-cover"
                       sizes="(max-width: 1024px) 100vw, 420px"
                     />
-                    <div className="absolute inset-0 bg-linear-to-t from-background/90 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-t from-background via-background/50 to-transparent" />
                     <div className="absolute bottom-4 start-4 end-4">
                       <p className="text-sm font-semibold text-foreground">Mohamed Abdelhamed</p>
                       <p className="text-xs text-accent.blue font-mono">Frontend Engineer • Target Digital Solution</p>

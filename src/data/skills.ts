@@ -73,5 +73,5 @@ export const skillCategories: SkillCategory[] = [
 export const stats = [
   { value: "1.5+", label: { en: "Years Experience", ar: "سنوات خبرة" } },
   { value: "10+", label: { en: "Projects Delivered", ar: "مشروع مُنجز" } },
-  { value: "3+", label: { en: "Production Apps", ar: "تطبيق في الإنتاج" } },
+  { value: "7+", label: { en: "Production Apps", ar: "تطبيق في الإنتاج" } },
 ];

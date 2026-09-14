@@ -5,13 +5,13 @@ const projects = [
   { slug: 'carehub', title: 'CareHub', subtitle: 'Healthcare Platform & Dashboard', color1: '#0f172a', color2: '#0369a1', badge: 'Next.js • Redux • Healthcare' },
   { slug: 'work-brand', title: 'Work Brand', subtitle: 'Office & Studio Space Management', color1: '#111827', color2: '#2563eb', badge: 'React • Admin Dashboard' },
   { slug: 'elamwal', title: 'Elamwal', subtitle: 'Financial Markets News & CMS', color1: '#090d16', color2: '#0284c7', badge: 'React • Editorial CMS' },
-  { slug: 'jasour', title: 'Jasour', subtitle: 'Community & Service Connectivity', color1: '#0f172a', color2: '#3b82f6', badge: 'React • Web Platform' },
-  { slug: 'tamayoz', title: 'Tamayoz', subtitle: 'Modern E-Learning & Courses', color1: '#0a101d', color2: '#1d4ed8', badge: 'React • EdTech' },
-  { slug: 'elmonjez', title: 'Elmonjez', subtitle: 'Task & Workflow Productivity Platform', color1: '#1e1b4b', color2: '#2563eb', badge: 'React • Productivity' },
-  { slug: 'speedegy', title: 'Speedegy', subtitle: 'High-Performance Web Solutions', color1: '#0c1322', color2: '#0ea5e9', badge: 'Performance • Core Web Vitals' },
-  { slug: 'artzksa', title: 'Artzk', subtitle: 'Visual Art & Creative Showcases', color1: '#18181b', color2: '#38bdf8', badge: 'React • Creative Portfolio' },
-  { slug: 'truennorth', title: 'TrueNorth', subtitle: 'Strategic Growth & Business Hub', color1: '#0f172a', color2: '#1e40af', badge: 'Corporate • Strategy' },
-  { slug: 'marktita', title: 'Marktita', subtitle: 'Modern E-Commerce Marketplace', color1: '#172554', color2: '#0284c7', badge: 'E-Commerce • Shopping' }
+  // { slug: 'jasour', title: 'Jasour', subtitle: 'Community & Service Connectivity', color1: '#0f172a', color2: '#3b82f6', badge: 'React • Web Platform' },
+  // { slug: 'tamayoz', title: 'Tamayoz', subtitle: 'Modern E-Learning & Courses', color1: '#0a101d', color2: '#1d4ed8', badge: 'React • EdTech' },
+  // { slug: 'elmonjez', title: 'Elmonjez', subtitle: 'Task & Workflow Productivity Platform', color1: '#1e1b4b', color2: '#2563eb', badge: 'React • Productivity' },
+  // { slug: 'speedegy', title: 'Speedegy', subtitle: 'High-Performance Web Solutions', color1: '#0c1322', color2: '#0ea5e9', badge: 'Performance • Core Web Vitals' },
+  // { slug: 'artzksa', title: 'Artzk', subtitle: 'Visual Art & Creative Showcases', color1: '#18181b', color2: '#38bdf8', badge: 'React • Creative Portfolio' },
+  // { slug: 'truennorth', title: 'TrueNorth', subtitle: 'Strategic Growth & Business Hub', color1: '#0f172a', color2: '#1e40af', badge: 'Corporate • Strategy' },
+  // { slug: 'marktita', title: 'Marktita', subtitle: 'Modern E-Commerce Marketplace', color1: '#172554', color2: '#0284c7', badge: 'E-Commerce • Shopping' }
 ];
 
 function createCoverSvg(p) {

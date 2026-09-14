@@ -1,14 +1,14 @@
 export const SITE_CONFIG = {
   name: "Mohamed Abdelhamed",
-  nameAr: "محمد عبدالحامد",
+  nameAr: "محمد عبدالحميد",
   title: "Frontend Engineer",
   titleAr: "مهندس واجهات أمامية",
   email: "m.abdelhamed941@gmail.com",
   phone: "+20 155 725 0005",
   location: "Cairo, Egypt",
   locationAr: "القاهرة، مصر",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
+  github: "https://github.com/kordy21",
+  linkedin: "https://www.linkedin.com/in/mohamed-abdelhamed-9a756320a",
   description:
     "Frontend Engineer with 1.5+ years building production-ready web applications, admin dashboards, and business platforms.",
   descriptionAr:

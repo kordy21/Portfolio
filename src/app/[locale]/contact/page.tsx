@@ -49,10 +49,9 @@ export default function ContactPage() {
   };
 
   const inputClass = (field: keyof FormState) =>
-    `w-full bg-transparent border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 outline-none transition-colors focus:ring-1 ${
-      errors[field]
-        ? "border-destructive focus:ring-destructive/30"
-        : "border-border/80 focus:border-accent.blue focus:ring-accent.blue/20"
+    `w-full bg-transparent border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 outline-none transition-colors focus:ring-1 ${errors[field]
+      ? "border-destructive focus:ring-destructive/30"
+      : "border-border/80 focus:border-accent.blue focus:ring-accent.blue/20"
     }`;
 
   return (
@@ -251,7 +250,7 @@ export default function ContactPage() {
                     <button
                       type="submit"
                       disabled={status === "loading"}
-                      className="w-full py-3 px-6 bg-foreground text-background rounded-lg text-sm font-medium hover:bg-accent.blue hover:text-white disabled:opacity-60 disabled:cursor-not-allowed transition-all duration-200 shadow-sm"
+                      className="w-full py-3 px-6 bg-foreground text-background rounded-lg text-sm font-medium hover:bg-accent.blue dark:hover:text-white disabled:opacity-60 disabled:cursor-not-allowed transition-all duration-200 shadow-sm"
                     >
                       {status === "loading" ? (
                         <span className="flex items-center justify-center gap-2">

@@ -32,13 +32,13 @@ export function AboutSnippet() {
               <div className="relative rounded-2xl overflow-hidden border border-border/80 bg-card p-3 shadow-md group">
                 <div className="relative aspect-4/3 rounded-xl overflow-hidden bg-muted">
                   <Image
-                    src="/images/profile.jpg"
+                    src="/images/profile-1.jpeg"
                     alt="Mohamed Abdelhamed Mahmoud"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-103"
                     sizes="(max-width: 768px) 100vw, 360px"
                   />
-                  <div className="absolute inset-0 bg-linear-to-t from-background/80 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-background via-background/50 to-transparent" />
                   <div className="absolute bottom-3 start-3 end-3 flex items-center justify-between text-xs font-mono">
                     <span className="px-2 py-1 rounded bg-background/90 text-foreground border border-border/60">
                       Frontend Engineer
