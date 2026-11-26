@@ -55,6 +55,13 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
+    id: "backend",
+    label: { en: "Backend", ar: "الخلفية" },
+    skills: [
+      { name: "Express.js", level: "familiar" },
+    ],
+  },
+  {
     id: "tools",
     label: { en: "Tools & Platforms", ar: "الأدوات والمنصات" },
     skills: [

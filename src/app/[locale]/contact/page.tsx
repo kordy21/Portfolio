@@ -42,10 +42,17 @@ export default function ContactPage() {
     if (!validate()) return;
     setStatus("loading");
 
-    // Mock submission — plug in EmailJS / Resend / Formspree here
-    await new Promise((r) => setTimeout(r, 1500));
-    // Simulate success (change to "error" to test error state)
-    setStatus("success");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error("send failed");
+      setStatus("success");
+    } catch {
+      setStatus("error");
+    }
   };
 
   const inputClass = (field: keyof FormState) =>
