@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, Mail, ChevronDown, Sparkles } from "lucide-react";
+import { ArrowUpRight, Mail, ChevronDown } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/ui/SocialIcons";
 import { SITE_CONFIG } from "@/lib/constants";
 import { MagneticButton } from "@/components/animations/MagneticButton";
@@ -60,8 +60,7 @@ export function Hero() {
               <span>{t("available")}</span>
               <span className="text-border">|</span>
               <span className="text-accent.blue flex items-center gap-1 font-sans">
-                <Sparkles size={12} className="text-accent.blue" />
-                Frontend Architecture
+                Full-Stack Development
               </span>
             </motion.div>
 
@@ -228,12 +227,12 @@ export function Hero() {
                 {/* Mini Stats Footer */}
                 <div className="p-4 grid grid-cols-3 gap-2 text-center bg-card">
                   <div className="p-2 rounded-lg bg-muted/40 border border-border/60">
-                    <p className="text-xs font-bold text-foreground">1.5+ Yrs</p>
+                    <p className="text-xs font-bold text-foreground">2.5+ Yrs</p>
                     <p className="text-[10px] text-muted-foreground">{locale === "ar" ? "خبرة" : "Experience"}</p>
                   </div>
                   <div className="p-2 rounded-lg bg-muted/40 border border-border/60">
-                    <p className="text-xs font-bold text-accent.blue">10+ Apps</p>
-                    <p className="text-[10px] text-muted-foreground">{locale === "ar" ? "مشاريع" : "Delivered"}</p>
+                    <p className="text-xs font-bold text-accent.blue">13 Apps</p>
+                    <p className="text-[10px] text-muted-foreground">{locale === "ar" ? "تطبيق" : "Delivered"}</p>
                   </div>
                   <div className="p-2 rounded-lg bg-muted/40 border border-border/60">
                     <p className="text-xs font-bold text-emerald-500">100%</p>

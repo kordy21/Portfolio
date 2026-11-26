@@ -10,7 +10,7 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "title": "Frontend Engineer",
+    "title": "Full-Stack Developer",
     "tagline": "Building digital experiences that are fast, scalable, and beautifully engineered.",
     "cta_projects": "View Projects",
     "cta_contact": "Contact Me",
@@ -20,7 +20,7 @@
   "about": {
     "title": "About Me",
     "subtitle": "Engineer & Builder",
-    "summary": "Frontend Engineer with 1.5+ years of experience building production-ready web applications, admin dashboards, and business platforms. I specialize in React.js and Next.js, with a passion for clean architecture, scalable interfaces, and seamless API integration.",
+    "summary": "Full-Stack Developer with 2.5+ years of experience building production-ready web applications, admin dashboards, and business platforms. I specialize in React.js and Next.js, with a passion for clean architecture, scalable interfaces, and seamless API integration, with hands-on experience in real-time dashboards and online payment gateway integrations.",
     "philosophy_title": "Engineering Philosophy",
     "philosophy": "I believe great software is built at the intersection of clean code and thoughtful design. Every component should have a single responsibility, every interface should be intuitive, and every application should perform as well as it looks.",
     "cta": "View Full Experience",
@@ -123,8 +123,8 @@
     "current": "EN"
   },
   "meta": {
-    "home_title": "Mohamed Abdelhamed — Frontend Engineer",
-    "home_desc": "Frontend Engineer building fast, scalable web applications with React.js and Next.js.",
+    "home_title": "Mohamed Abdelhamed — Full-Stack Developer",
+    "home_desc": "Full-Stack Developer building fast, scalable web applications with React.js and Next.js.",
     "about_title": "About — Mohamed Abdelhamed",
     "projects_title": "Projects — Mohamed Abdelhamed",
     "experience_title": "Experience — Mohamed Abdelhamed",

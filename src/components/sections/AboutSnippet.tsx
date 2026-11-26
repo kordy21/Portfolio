@@ -41,7 +41,7 @@ export function AboutSnippet() {
                   <div className="absolute inset-0 bg-linear-to-t from-background via-background/50 to-transparent" />
                   <div className="absolute bottom-3 start-3 end-3 flex items-center justify-between text-xs font-mono">
                     <span className="px-2 py-1 rounded bg-background/90 text-foreground border border-border/60">
-                      Frontend Engineer
+                      Full-Stack Developer
                     </span>
                     <span className="text-accent.blue bg-accent.blue/10 px-2 py-1 rounded border border-accent.blue/30 font-medium">
                       Cairo, Egypt

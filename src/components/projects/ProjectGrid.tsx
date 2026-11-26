@@ -1,11 +1,10 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { projects } from "@/data/projects";
 import { ProjectCard } from "@/components/projects/ProjectCard";
-import { getLocalizedValue } from "@/lib/utils";
 
 const FILTERS = [
   { key: "all", match: null },
@@ -19,7 +18,6 @@ const FILTERS = [
 
 export function ProjectGrid() {
   const t = useTranslations("projects");
-  const locale = useLocale();
   const [active, setActive] = useState<string>("all");
 
   const filtered = useMemo(() => {
@@ -31,11 +29,11 @@ export function ProjectGrid() {
         p.technologies.some((tech) =>
           tech.toLowerCase().includes(filter.match!.toLowerCase())
         ) ||
-        getLocalizedValue(p.category, locale)
+        p.category.en
           .toLowerCase()
           .includes(filter.match!.toLowerCase())
     );
-  }, [active, locale]);
+  }, [active]);
 
   return (
     <div>

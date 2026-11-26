@@ -20,6 +20,8 @@ export const skillCategories: SkillCategory[] = [
       { name: "TypeScript", level: "proficient" },
       { name: "HTML5", level: "expert" },
       { name: "CSS3", level: "expert" },
+      { name: "next-intl (i18n)", level: "proficient" },
+      { name: "Python", level: "familiar" },
     ],
   },
   {
@@ -37,6 +39,7 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Redux Toolkit", level: "expert" },
       { name: "Context API", level: "expert" },
+      { name: "TanStack Query", level: "expert" },
     ],
   },
   {
@@ -47,13 +50,16 @@ export const skillCategories: SkillCategory[] = [
       { name: "Axios", level: "expert" },
       { name: "Authentication", level: "proficient" },
       { name: "CRUD Operations", level: "expert" },
+      { name: "Paymob Integration", level: "proficient" },
+      { name: "Socket.IO (Real-time)", level: "proficient" },
     ],
   },
   {
     id: "tools",
     label: { en: "Tools & Platforms", ar: "الأدوات والمنصات" },
     skills: [
-      { name: "GitHub", level: "expert" },
+      { name: "Git & GitHub", level: "expert" },
+      { name: "CI/CD Pipelines", level: "proficient" },
       { name: "Figma", level: "proficient" },
       { name: "Postman", level: "proficient" },
       { name: "Apidog", level: "proficient" },
@@ -71,7 +77,7 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const stats = [
-  { value: "1.5+", label: { en: "Years Experience", ar: "سنوات خبرة" } },
-  { value: "10+", label: { en: "Projects Delivered", ar: "مشروع مُنجز" } },
-  { value: "7+", label: { en: "Production Apps", ar: "تطبيق في الإنتاج" } },
+  { value: "2.5+", label: { en: "Years Experience", ar: "سنوات خبرة" } },
+  { value: "6", label: { en: "Products Delivered", ar: "منتجات مُنجزة" } },
+  { value: "13", label: { en: "Production Apps", ar: "تطبيق في الإنتاج" } },
 ];

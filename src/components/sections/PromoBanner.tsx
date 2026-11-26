@@ -1,6 +1,6 @@
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import { ArrowUpRight, Sparkles, MessageSquare, Terminal } from "lucide-react";
+import { ArrowUpRight, MessageSquare, Terminal } from "lucide-react";
 import { Reveal } from "@/components/animations/Reveal";
 
 export function PromoBanner() {
@@ -19,7 +19,6 @@ export function PromoBanner() {
             <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
               <div className="max-w-2xl">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent.blue/30 bg-accent.blue/10 text-accent.blue text-xs font-mono mb-4">
-                  <Sparkles size={12} />
                   <span>
                     {locale === "ar"
                       ? "جاهز للتعاون وبناء منتجات رقمية استثنائية"
@@ -28,8 +27,8 @@ export function PromoBanner() {
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground mb-3">
                   {locale === "ar"
-                    ? "هل تبحث عن مهندس واجهات أمامية موثوق لمشروعك القادم؟"
-                    : "Looking for a reliable frontend engineer for your next project?"}
+                    ? "هل تبحث عن مطور Full-Stack موثوق لمشروعك القادم؟"
+                    : "Looking for a reliable full-stack developer for your next project?"}
                 </h2>
                 <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                   {locale === "ar"

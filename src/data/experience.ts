@@ -53,6 +53,33 @@ export const experiences: Experience[] = [
       },
     ],
   },
+  {
+    id: "fassla",
+    company: { en: "Fassla", ar: "فاصلة" },
+    role: { en: "WordPress Developer", ar: "مطور ووردبريس" },
+    period: { en: "Jul 2024 – Feb 2025", ar: "يوليو 2024 – فبراير 2025" },
+    periodStart: "2024-07",
+    periodEnd: "2025-02",
+    description: {
+      en: "Built and maintained custom WordPress themes, plugins and responsive websites for diverse clients, focused on performance and user-friendly design.",
+      ar: "بناء وصيانة قوالب وإضافات ووردبريس مخصصة ومواقع متجاوبة لعملاء متنوعين، مع التركيز على الأداء وتصميمات سهلة الاستخدام.",
+    },
+    technologies: ["WordPress", "JavaScript", "ACF", "WooCommerce", "Dokan", "WPForms", "Tutor LMS"],
+    achievements: [
+      {
+        en: "Built and maintained custom themes, plugins, and responsive websites",
+        ar: "بناء وصيانة قوالب وإضافات مخصصة ومواقع متجاوبة",
+      },
+      {
+        en: "Worked with ACF, WooCommerce, Dokan, WPForms and Tutor LMS",
+        ar: "العمل مع ACF و WooCommerce و Dokan و WPForms و Tutor LMS",
+      },
+      {
+        en: "Focused on performance optimization and delivering user-friendly designs",
+        ar: "التركيز على تحسين الأداء وتقديم تصميمات سهلة الاستخدام",
+      },
+    ],
+  },
 ];
 
 export interface Education {

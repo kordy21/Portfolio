@@ -1,8 +1,8 @@
 export const SITE_CONFIG = {
   name: "Mohamed Abdelhamed",
   nameAr: "محمد عبدالحميد",
-  title: "Frontend Engineer",
-  titleAr: "مهندس واجهات أمامية",
+  title: "Full-Stack Developer",
+  titleAr: "مطور Full-Stack",
   email: "m.abdelhamed941@gmail.com",
   phone: "+20 155 725 0005",
   location: "Cairo, Egypt",
@@ -10,9 +10,9 @@ export const SITE_CONFIG = {
   github: "https://github.com/kordy21",
   linkedin: "https://www.linkedin.com/in/mohamed-abdelhamed-9a756320a",
   description:
-    "Frontend Engineer with 1.5+ years building production-ready web applications, admin dashboards, and business platforms.",
+    "Full-Stack Developer with 2.5+ years building production-ready web applications, admin dashboards, and business platforms.",
   descriptionAr:
-    "مهندس واجهات أمامية بخبرة تزيد على عام ونصف في بناء تطبيقات ويب جاهزة للإنتاج.",
+    "مطور Full-Stack بخبرة تزيد على سنتين ونصف في بناء تطبيقات ويب جاهزة للإنتاج.",
 } as const;
 
 export const NAV_LINKS = [
